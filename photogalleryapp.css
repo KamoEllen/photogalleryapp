@@ -1,0 +1,23 @@
+.photo-gallery {
+  /* Add a dark background color and some padding to the gallery container */
+  background-color: #333;
+  padding: 20px;
+
+  /* Use a fancy font for the gallery captions */
+  font-family: 'Cursive', sans-serif;
+
+  /* Style the individual photos in the gallery */
+  .photo {
+    /* Add a white border and some padding around each photo */
+    border: 1px solid white;
+    padding: 10px;
+
+    /* Use a subtle box shadow to give each photo a bit of depth */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+
+    /* Use the :hover selector to add a zoom effect on mouseover */
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
